@@ -52,14 +52,14 @@ export default function Page() {
 						'linear-gradient(140deg, rgba(10,10,10,0.85) 60%, rgba(10,10,10,0.98) 100%)',
 					filter: 'blur(26px)',
 				}} />
-				<div className="pointer-events-none absolute top-[-32px] right-[210px] w-[46px] h-[110px] z-40 rotate-45" style={{
+				<div className="pointer-events-none absolute top-[-22px] right-[210px] w-[46px] h-[110px] z-40 rotate-45" style={{
 					background:
-						'radial-gradient(circle at 60% 40%, rgba(215,215,215,0.18) 0%, rgba(215,215,215,0.08) 60%, transparent 100%)',
+						'radial-gradient(circle at 60% 40%, rgba(205,205,205,0.18) 0%, rgba(205,205,205,0.08) 60%, transparent 100%)',
 					filter: 'blur(22px)',
 				}} />
-				<div className="pointer-events-none absolute top-[-16px] right-[90px] w-[40px] h-[90px] z-40 rotate-45" style={{
+				<div className="pointer-events-none absolute top-[-16px] right-[90px] w-[20px] h-[90px] z-40 rotate-45" style={{
 					background:
-						'radial-gradient(circle at 40% 40%, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.07) 60%, transparent 100%)',
+						'radial-gradient(circle at 40% 40%, rgba(215,215,215,0.16) 0%, rgba(215,215,215,0.07) 60%, transparent 100%)',
 					filter: 'blur(18px)',
 				}} />
 				<div className="pointer-events-none absolute top-[-8px] right-[70px] w-[6px] h-[80px] z-41" style={{
@@ -82,14 +82,14 @@ export default function Page() {
 						</span>
 					</h1>
 					<button
-						className="mt-12 py-[6px] px-[22px] rounded-[28px] text-[#b8b4b4] text-[18px] font-semibold cursor-pointer shadow-xl border border-white/30 transition-all duration-150 hover:scale-[1.04] hover:shadow-2xl hover:border-white/50 backdrop-blur-3xl"
+						className="mt-12 py-[6px] px-[22px] rounded-[28px] text-[#e6e4e4] text-[18px] font-semibold cursor-pointer shadow-xl border border-white/30 transition-all duration-150 hover:scale-[1.04] hover:shadow-2xl hover:border-white/50 backdrop-blur-3xl"
 						style={{
-							background: 'linear-gradient(90deg, #181818 0%,#232323 50%,#232323 50%, #232323 50%, #181818 100%)',
+							background: 'linear-gradient(90deg, #181818 0%,#333333 85%,#333333 75%, #333333 75%,#333333 75%,#333333 75%, #333333 75%, #181818 100%)',
 							boxShadow: '0 4px 16px 0 rgba(0,0,0,0.22)',
 							borderTop: '0.4px solid rgba(255,255,255,0.28)',
 							borderLeft: '0.5px solid rgba(255,255,255,0.28)',
 							borderBottom: '1px solid rgba(255,255,255,0.12)',
-							borderRight: 'none',
+							borderRight:'0.5px solid rgba(255,255,255,0.28)',
 							letterSpacing: '0.01em',
 						}}
 					>
